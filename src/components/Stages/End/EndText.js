@@ -35,6 +35,7 @@ const EndText = React.memo(props => (
     </a>
 
     <a style={{ textDecoration: "none" }} href="#">
+      <h3 style={{ color: "white" }}>Buy</h3>
       <h3 style={{ color: "white" }}>Staking Dapp</h3>
     </a>
   </SceneObject>
