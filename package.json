@@ -1,20 +1,8 @@
 {
-  "name": "RetroEarn",
+  "name": "retroearn",
   "version": "1.0.0",
   "description": "Welcome to RetroEarn",
   "private": true,
-  "homepage": "https://sfatihk.github.io/react-world",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sfatihk/react-world.git"
-  },
-  "keywords": [
-    "react",
-    "reactjs",
-    "scroll",
-    "animation",
-    "super heroes"
-  ],
   "license": "MIT",
   "author": "Nothing Protocol",
   "dependencies": {
