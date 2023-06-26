@@ -18,7 +18,7 @@ const EndText = React.memo(props => (
     
     <a
       style={{ textDecoration: "none" }}
-      href="https://github.com/sfatihk/react-world"
+      href="#"
     >
       <h2 style={{ color: "#6B6B6B" }}>
         &gt;10% Tax
