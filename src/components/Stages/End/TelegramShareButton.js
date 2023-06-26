@@ -10,7 +10,7 @@ const TelegramShareButton = React.memo(props => {
       style={{ cursor: "pointer" }}
       onClick={() =>
         window.open(
-          `https://t.me/retro_earnportal`,
+          `https://t.me/retro_earn`,
         )
       }
       alt="Twitter Icon"
