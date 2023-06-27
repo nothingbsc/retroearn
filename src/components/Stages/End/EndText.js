@@ -34,7 +34,7 @@ const EndText = React.memo(props => (
       </h2>
     </a>
 
-    <a style={{ textDecoration: "none" }} href="#">
+    <a style={{ textDecoration: "none" }} href="https://pancakeswap.finance/swap?outputCurrency=00xe3b9707cdA7f0bd85Ac5CE9f91131d61f247620A">
       <h3 style={{ color: "white" }}>Buy</h3>
       <h3 style={{ color: "white" }}>Staking Dapp</h3>
     </a>

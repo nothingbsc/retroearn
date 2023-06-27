@@ -126,7 +126,7 @@ const WithScroll = (WrappedComponent) => {
                     style={{
                       width: 580,
                       padding: 40,
-                      color: "#FFEB3B",
+                      color: "#FFEB3B"
                     }}
                   >
                     RetroEarn

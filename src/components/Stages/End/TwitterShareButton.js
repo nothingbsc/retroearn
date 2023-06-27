@@ -11,7 +11,7 @@ const TwitterShareButton = React.memo(props => {
       style={{ cursor: "pointer" }}
       onClick={() =>
         window.open(
-          `https://twitter.com/`
+          `https://twitter.com/retroearn`
         )
       }
       alt="Twitter Icon"
