@@ -16,9 +16,7 @@ const EndText = React.memo(props => (
     <TwitterShareButton />
     <TelegramShareButton />
     
-    <a
-      style={{ textDecoration: "none" }}
-      href="#"
+    <div
     >
       <h2 style={{ color: "#6B6B6B" }}>
         &gt;10% Tax
@@ -32,12 +30,16 @@ const EndText = React.memo(props => (
         &gt;Earn Crypto
         <br />
       </h2>
-    </a>
+    </div>
 
-    <a style={{ textDecoration: "none" }} href="https://pancakeswap.finance/swap?outputCurrency=00xe3b9707cdA7f0bd85Ac5CE9f91131d61f247620A">
-      <h3 style={{ color: "white" }}>Buy</h3>
-      <h3 style={{ color: "white" }}>Staking Dapp</h3>
-    </a>
+    <div>
+      <a style={{ textDecoration: "none" }} href="https://pancakeswap.finance/swap?outputCurrency=00xe3b9707cdA7f0bd85Ac5CE9f91131d61f247620A">
+        <h3 style={{ color: "white" }}>Buy</h3> 
+      </a>
+      <a style={{ textDecoration: "none" }} href="https://pools.westakeit.com/bsc/0xe3b9707cda7f0bd85ac5ce9f91131d61f247620a">
+        <h3 style={{ color: "white" }}>Staking Dapp</h3> 
+      </a>
+    </div>
   </SceneObject>
 ));
 export default EndText;

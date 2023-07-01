@@ -1,7 +1,7 @@
 import React from "react";
 import SceneObject from "../../SceneObject";
 import Tree from "./Tree";
-import Frodo from "./Frodo";
+
 
 const visibleRange = [0, 8050];
 
@@ -42,10 +42,6 @@ const LotrGroundLayer = React.memo(props => {
         type="6"
       />
       <Tree transform={{ position: { x: 4100, y: 35 } }} type="2" />
-      <Frodo
-        transform={{ position: { x: 3950, y: 100 }, scale: { x: 600, y: 803 } }}
-        canPlay={3700 < props.scroll}
-      />
     </SceneObject>
   );
 });
