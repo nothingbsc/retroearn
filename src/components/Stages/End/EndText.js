@@ -6,7 +6,7 @@ import TelegramShareButton from "./TelegramShareButton";
 
 const EndText = React.memo(props => (
   <SceneObject
-    name="Join Us"
+    name="Join Us :)"
     transform={{
       position: props.transform.position,
       scale: { x: "auto", y: "auto" },
